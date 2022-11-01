@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5504426063847918814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5504426063847918800}
+  - component: {fileID: 5504426063847918801}
+  m_Layer: 0
+  m_Name: CraftingBehavior
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5504426063847918800
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5504426063847918814}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1059.5781, y: 480.91962, z: 8.247162}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5504426063847918801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5504426063847918814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91e9052156a332a4ea89f5536c8c5053, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customCursor: {fileID: 0}
+  craftingSlots:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  itemList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  recipes:
+  - froglegeyefoxtailfang
+  - froglegfoxtaileyefang
+  - froglegfangeyefoxtail
+  - froglegfangfoxtaileye
+  - froglegfoxtailfangeye
+  - eyefroglegfoxtailfang
+  - eyefoxtailfangfrogleg
+  - eyefangfoxtailfrogleg
+  - pineappleacorncheeserawmeat
+  - pineapplerawmeatcheeseacorn
+  - pineapplerawmeatacroncheese
+  - pineappleacornrawmeatcheese
+  - pineapplecheeserawmeatacorn
+  - pineapplecheeseacornrawmeat
+  - cheesepineappleacornrawmeat
+  - cheesepineapplerawmeatacorn
+  - cheeserawmeatpineappleacorn
+  - cheeserawmeatacornpineapple
+  - cheeseacornpineapplerawmeat
+  - cheeseacornrawmeatpineapple
+  - rawmeatcheeseacornpineapple
+  - rawmeatcheesepineappleacorn
+  - rawmeatpineapplecheeseacorn
+  - rawmeatpineappleacorncheese
+  - rawmeatacornpineapplecheese
+  - rawmeatacorncheesepineapple
+  - rawfishacorncheesepineapple
+  - rawfishacornpineapplecheese
+  - rawfishpineappleacorncheese
+  - rawfishpineapplecheeseacorn
+  - rawfishcheesepineappleacorn
+  - rawfishcheeseacornpineapple
+  - cheeserawfishpineappleacorn
+  - cheeserawfishacornpineapple
+  - cheesepineapplerawfishacorn
+  - cheesepineappleacornrawfish
+  - cheeseacornrawfishpineapple
+  - cheeseacornpineapplerawfish
+  - acorncheesepineapplerawfish
+  - acorncheeserawfishpineapple
+  - acornrawfishpineapplecheese
+  - acornrawfishcheesepineapple
+  - pineappleacornrawfishcheese
+  - pineappleacorncheeserawfish
+  - pineapplerawfishacorncheese
+  - pineapplerawfishcheeseacorn
+  recipeResults:
+  - {fileID: 8072235867199951609, guid: 3c3e34c4672cb144aad5538bfbaffd41, type: 3}
+  - {fileID: 8072235867199951609, guid: 3c3e34c4672cb144aad5538bfbaffd41, type: 3}
+  - {fileID: 8072235867199951609, guid: 3c3e34c4672cb144aad5538bfbaffd41, type: 3}
+  - {fileID: 8072235867199951609, guid: 3c3e34c4672cb144aad5538bfbaffd41, type: 3}
+  - {fileID: 8072235867199951609, guid: 3c3e34c4672cb144aad5538bfbaffd41, type: 3}
+  - {fileID: 8072235867199951609, guid: 3c3e34c4672cb144aad5538bfbaffd41, type: 3}
+  - {fileID: 8072235867199951609, guid: 3c3e34c4672cb144aad5538bfbaffd41, type: 3}
+  - {fileID: 8072235867199951609, guid: 3c3e34c4672cb144aad5538bfbaffd41, type: 3}
+  - {fileID: 4851275144195856045, guid: 50c40870761eb1a4fa3fa0ba0a71075f, type: 3}
+  - {fileID: 4851275144195856045, guid: 50c40870761eb1a4fa3fa0ba0a71075f, type: 3}
+  - {fileID: 4851275144195856045, guid: 50c40870761eb1a4fa3fa0ba0a71075f, type: 3}
+  - {fileID: 4851275144195856045, guid: 50c40870761eb1a4fa3fa0ba0a71075f, type: 3}
+  - {fileID: 4851275144195856045, guid: 50c40870761eb1a4fa3fa0ba0a71075f, type: 3}
+  - {fileID: 4851275144195856045, guid: 50c40870761eb1a4fa3fa0ba0a71075f, type: 3}
+  - {fileID: 4851275144195856045, guid: 50c40870761eb1a4fa3fa0ba0a71075f, type: 3}
+  - {fileID: 4851275144195856045, guid: 50c40870761eb1a4fa3fa0ba0a71075f, type: 3}
+  - {fileID: 4851275144195856045, guid: 50c40870761eb1a4fa3fa0ba0a71075f, type: 3}
+  - {fileID: 4851275144195856045, guid: 50c40870761eb1a4fa3fa0ba0a71075f, type: 3}
+  - {fileID: 4851275144195856045, guid: 50c40870761eb1a4fa3fa0ba0a71075f, type: 3}
+  - {fileID: 4851275144195856045, guid: 50c40870761eb1a4fa3fa0ba0a71075f, type: 3}
+  - {fileID: 4851275144195856045, guid: 50c40870761eb1a4fa3fa0ba0a71075f, type: 3}
+  - {fileID: 4851275144195856045, guid: 50c40870761eb1a4fa3fa0ba0a71075f, type: 3}
+  - {fileID: 4851275144195856045, guid: 50c40870761eb1a4fa3fa0ba0a71075f, type: 3}
+  - {fileID: 4851275144195856045, guid: 50c40870761eb1a4fa3fa0ba0a71075f, type: 3}
+  - {fileID: 4851275144195856045, guid: 50c40870761eb1a4fa3fa0ba0a71075f, type: 3}
+  - {fileID: 854996944525801356, guid: ec4f4d8a34a4929448641b1bf788df78, type: 3}
+  - {fileID: 854996944525801356, guid: ec4f4d8a34a4929448641b1bf788df78, type: 3}
+  - {fileID: 854996944525801356, guid: ec4f4d8a34a4929448641b1bf788df78, type: 3}
+  - {fileID: 854996944525801356, guid: ec4f4d8a34a4929448641b1bf788df78, type: 3}
+  - {fileID: 854996944525801356, guid: ec4f4d8a34a4929448641b1bf788df78, type: 3}
+  - {fileID: 854996944525801356, guid: ec4f4d8a34a4929448641b1bf788df78, type: 3}
+  - {fileID: 854996944525801356, guid: ec4f4d8a34a4929448641b1bf788df78, type: 3}
+  - {fileID: 854996944525801356, guid: ec4f4d8a34a4929448641b1bf788df78, type: 3}
+  - {fileID: 854996944525801356, guid: ec4f4d8a34a4929448641b1bf788df78, type: 3}
+  - {fileID: 854996944525801356, guid: ec4f4d8a34a4929448641b1bf788df78, type: 3}
+  - {fileID: 854996944525801356, guid: ec4f4d8a34a4929448641b1bf788df78, type: 3}
+  - {fileID: 854996944525801356, guid: ec4f4d8a34a4929448641b1bf788df78, type: 3}
+  - {fileID: 854996944525801356, guid: ec4f4d8a34a4929448641b1bf788df78, type: 3}
+  - {fileID: 854996944525801356, guid: ec4f4d8a34a4929448641b1bf788df78, type: 3}
+  - {fileID: 854996944525801356, guid: ec4f4d8a34a4929448641b1bf788df78, type: 3}
+  - {fileID: 854996944525801356, guid: ec4f4d8a34a4929448641b1bf788df78, type: 3}
+  - {fileID: 854996944525801356, guid: ec4f4d8a34a4929448641b1bf788df78, type: 3}
+  - {fileID: 854996944525801356, guid: ec4f4d8a34a4929448641b1bf788df78, type: 3}
+  - {fileID: 854996944525801356, guid: ec4f4d8a34a4929448641b1bf788df78, type: 3}
+  - {fileID: 854996944525801356, guid: ec4f4d8a34a4929448641b1bf788df78, type: 3}
+  - {fileID: 854996944525801356, guid: ec4f4d8a34a4929448641b1bf788df78, type: 3}
+  resultSlot: {fileID: 0}
